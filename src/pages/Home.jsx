@@ -2,6 +2,8 @@ import React from "react";
 
 import Starbackground from "../component/Starbackground";
 import Navbar from "../component/Navbar";
+import Hero from "../component/Hero";
+import { Outlet } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -9,10 +11,15 @@ const Home = () => {
       {/* Background */}
       <Starbackground />
 
-{/* NAVBAR */}
-<div className="flex min-h-screen md:w-[40%] w-screen justify-center-safe">
 
+<div className="flex min-h-screen md:w-[40%] w-screen justify-center-safe">
+  {/* NAVBAR */}
         <Navbar />
+ {/* HERO */}
+<main className="py-20 md:w-[40vw]">
+  <Outlet/>
+</main>
+
          </div>
     </div>
   );
