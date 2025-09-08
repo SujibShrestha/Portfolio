@@ -178,3 +178,7 @@
   animation: wave 3.0s ease-in-out infinite;
   transform-origin: bottom center; /* pivot point for rotation */
 }   
+html, body {
+  overflow-x: hidden;
+}
+  

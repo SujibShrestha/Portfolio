@@ -4,7 +4,7 @@ import ThemeToggle from "../component/ThemeToggle";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   const navItems = [
-  
+  {name: "Home",to :"/"},
     { name: "Projects", to: "/projects" },
       { name: "Contact", to: "/contact" },
   ];
