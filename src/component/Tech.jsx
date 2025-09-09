@@ -63,7 +63,7 @@ const Tech = () => {
   ];
 
   return (
-    <div className="w-full bg-background md:w-[40vw] my-20 p-10 flex flex-col items-center justify-center">
+    <div className="w-full bg-background md:w-[40vw] my-8 p-10 flex flex-col items-center justify-center">
       {/* Title */}
       <h1 className="text-2xl text-foreground sm:text-3xl font-bold mb-8">
         Technologies

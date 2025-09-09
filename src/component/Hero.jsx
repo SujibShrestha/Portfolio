@@ -3,6 +3,7 @@ import profileImg from "../assets/pp.jpg";
 import { MapPin } from "lucide-react";
 import Tech from "./Tech";
 import Resume from "./Resume";
+import Projects from "../pages/Projects";
 
 const Hero = () => {
   return (
@@ -38,6 +39,7 @@ const Hero = () => {
    
 
 <Tech/>
+<Projects/>
     </section> 
   );
 };
