@@ -66,8 +66,8 @@ const Resume = () => {
     
           
           <DownloadButton 
-            fileUrl="/resume.pdf" // Replace with your actual resume file path
-            fileName="John_Doe_Resume.pdf"
+            fileUrl="src\assets\Resume.pdf" // Replace with your actual resume file path
+            fileName="Sujib_Resume.pdf"
             variant="primary"
           >
             Download Resume
